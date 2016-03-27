@@ -68,7 +68,7 @@ void get_next_day(FILE* f,int y,int m,int d){
 }
 
 
-void readfile(){
+void runTestCase(){
     FILE* file = fopen("/Users/liki/Desktop/Calendar/Calendar/testcase", "r");
     FILE* outfile = fopen("/Users/liki/Desktop/Calendar/Calendar/result","w");
     while (!feof (file)) {
@@ -83,7 +83,7 @@ void readfile(){
 
 int main(int argc, const char * argv[]){
     // read testcases and output test result
-    readfile();
+    runTestCase();
     return 0;
 }
 
