@@ -4,7 +4,7 @@
 public class Validate {
 
     public static boolean isYear(int y){
-        if(y>=0 && y<=Const.maxYear){
+        if(y>=Const.minYear && y<=Const.maxYear){
             return true;
         }
         else{
@@ -26,6 +26,7 @@ public class Validate {
 
         if(m==4|m==6|m==9|m==11){
             Const.maxDay=30;
+            return;
         }
         if(m==2){
             if(isLeapYear(y)){
@@ -34,10 +35,11 @@ public class Validate {
             else{
                 Const.maxDay=28;
             }
-        }else{
-            Const.maxDay=31;
+            return;
+        }else {
+            Const.maxDay = 31;
+            return;
         }
-        return;
     }
 
     public static boolean isDay(int y,int m,int d){
@@ -51,12 +53,14 @@ public class Validate {
     }
 
     public static boolean isLeapYear(int y){
-        if(y%4==0){
+        if((y%4==0)&&(y%100!=0)){
             return true;
         }
-        else{
-            return false;
+        if(y%400==0){
+            return true;
         }
+
+        return false;
     }
 
 

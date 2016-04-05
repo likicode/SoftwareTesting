@@ -4,5 +4,6 @@
 public class Const {
     public static int maxDay;
     public static final int maxMonth=12;
-    public static final int maxYear=9999;
+    public static final int maxYear=3000;
+    public static final int minYear=1800;
 }
