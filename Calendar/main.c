@@ -73,7 +73,7 @@ void runTestCase(){
     FILE* outfile = fopen("/Users/liki/Desktop/Calendar/Calendar/result","w");
     while (!feof (file)) {
         int year,month,day;
-        fscanf(file, "%d,%d,%d",&year,&month,&day);
+        fscanf(file, "%d, %d,%d",&year,&month,&day);
         printf("%d,%d,%d\n",year,month,day);
         get_next_day(outfile,year, month,day);
     }
