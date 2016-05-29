@@ -1,0 +1,9 @@
+1	\	工资	\	true
+2	\	分红	\	true
+3	\	餐补	\	true
+4	\	交通	\	true
+5	\	饮食	\	true
+6	\	服装	\	true
+7	\	化妆品	\	true
+8	\	鞋帽	\	true
+9	\	旅游	\	true
