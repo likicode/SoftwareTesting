@@ -1,0 +1,16 @@
+SELECT TypeID FROM IncomeType WHERE TypeName = '工资';	1
+SELECT TypeID FROM IncomeType WHERE TypeName = 'Scholarship';	10
+SELECT TypeID FROM IncomeType WHERE TypeName = '参加Party';	13
+SELECT TypeID FROM IncomeType WHERE TypeName = 'Party';	-1
+SELECT TypeName FROM IncomeType WHERE TypeID= '1';	工资
+SELECT TypeName FROM IncomeType WHERE TypeID= '7';	化妆品
+SELECT TypeName FROM IncomeType WHERE TypeID= '14';	喝Coffee
+SELECT TypeName FROM IncomeType WHERE TypeID= '20';	NULL
+SELECT Amount FROM Income Where Time >= '19800101'  and Time <= '19810101';	100, 120, 130, 10.5, 10.203, -45
+SELECT Amount FROM Income Where Time >= '20140201'  and Time <= '20140228';	0
+SELECT Amount FROM Income Where Time >= '19800101'  and Time <= ' 19810101' and Amount > 0;	100, 120, 130, 10.5, 10.203
+SELECT Amount FROM Income Where Time >= '20140201'  and Time <= '20140228' and Amount > 0;	0
+SELECT Amount FROM Income Where Time >= '19800101'  and Time <= '19810101' and Amount < 0;	-45
+SELECT Amount FROM Income Where Time >= '20140201'  and Time <= '20140228' and Amount < 0;	0
+SELECT Amount FROM Income Where Time >= '19800101'  and Time <= '20991231' and TypeID = '1' ;	100, 120, 130, 1000.5, 1002.3, 1200.5, 1300.606, 1305.4566, 1460.89009, 32
+SELECT Amount FROM Income Where Time >= '20140201'  and Time <= '20140501' and TypeID = '10';	0

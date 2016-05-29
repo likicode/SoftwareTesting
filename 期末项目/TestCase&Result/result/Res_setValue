@@ -1,0 +1,92 @@
+19800101	1月工资	+100	1	这是项目备注。	true 	true
+19800201	2月工资	+120	1	This is remark.	true 	true
+19800302	3月工资	+130	1	这是备注；This is remark.	true 	true
+20000101	1月工资	+1000.50	1	这是项目备注。	true 	true
+20100101	1月工资	+1002.30	1	This is remark.	true 	true
+20110301	3月工资	+1200.50	1	这是备注；This is remark.	true 	true
+20120501	5月工资	+1300.606	1	这是项目备注。	true 	true
+20130501	5月工资	+1305.4566	1	This is remark.	true 	true
+20140903	9月工资	+1460.89009	1	这是备注；This is remark.	true 	true
+19850112	1月餐补	22	2	这是项目备注。	true 	true
+20991224	2月餐补	56	2	This is remark.	true 	true
+19900324	3月餐补	38	2	这是备注；This is remark.	true 	true
+19800116	1月餐补	10.50	2	这是项目备注。	true 	true
+20991217	1月餐补	45.50	2	This is remark.	true 	true
+19900318	3月餐补	34.30	2	这是备注；This is remark.	true 	true
+19800119	5月餐补	10.203	2	这是项目备注。	true 	true
+20991220	5月餐补	45.5043	2	This is remark.	true 	true
+19900321	9月餐补	32.336799	2	这是备注；This is remark.	true 	true
+20000123	运动鞋	-800	8	这是项目备注。	true 	true
+20000224	口红	-304	7	This is remark.	true 	true
+20000330	袜子	-35	11	这是备注；This is remark.	true 	true
+20000526	裤子	-455.45	6	这是项目备注。	true 	true
+20000625	上衣	-359.76	6	This is remark.	true 	true
+20000703	染发	-32.33	11	这是备注；This is remark.	true 	true
+20001001	润肤乳	-10.203	7	这是项目备注。	true 	true
+20001001	遮阳帽	-45.5043	8	This is remark.	true 	true
+20001001	纱巾	-32.336799	6	这是备注；This is remark.	true 	true
+20800229	Student_Scholarship	+100	10	这是项目备注。	true 	true
+20800531	Student_Scholarship	+120	10	remark.	true 	true
+20800622	National_Scholarship	+130	10	这是备注；remark.	true 	true
+20800229	Social_Activity_Scholarship	+1000.50	10	这是项目备注。	true 	true
+20800531	Student_Scholarship	+1002.30	10	remark.	true 	true
+20800622	Social_Activity_Scholarship	+1200.50	10	这是备注;remark.	true 	true
+20800229	Social_Activity_Scholarship	+1300.606	10	这是项目备注。	true 	true
+20900531	First_Prize	+1305.4566	10	remark.	true 	true
+20900622	Third_Prize	+1460.89009	10	这是备注；remark.	true 	true
+20700229	bonus	10	2	这是项目备注。	true 	false
+20700531	bonus	45	2	This is remark.	true 	true
+20800622	daily_salary	32	1	这是备注；remark.	true 	true
+20600229	bonus 	0.20	2	这是项目备注。	true 	true
+20500531	bonus	45.50	2	remark.	true 	true
+20700622	bonus 	32.33	2	这是备注；remark.	true 	true
+20800229	bonus	10.203	2	这是项目备注。	true 	true
+20900531	bonus 	45.5043	2	remark.	true 	true
+20500622	bonus	32.336799	2	这是备注；This is remark.	true 	true
+19080229	tourism	-1040	9	这是项目备注。	true 	false
+19800531	Beijing	-45	9	remark.	true 	true
+20500622	Changsha	-32	9	这是备注；remark.	true 	true
+20600229	America	-0.20	9	这是项目备注。	true 	true
+20700531	Cup	-45.50	11	remark.	true 	true
+20800622	Bag	-32.33	11	这是备注；remark.	true 	true
+20900229	TV	-1000.203	11	这是项目备注。	true 	false
+20700531	sofa	-4500.5043	11	remark.	true 	true
+20400622	closet	-320.336799	11	这是备注；remark.	true 	true
+20300730	Belly还款	+10	3	这是项目备注。	true 	true
+20411111	get彩票	+45	3	remark.	true 	true
+20531212	John还款	+32	3	这是备注；remark.	true 	true
+20300730	Bella还款	+10.20	3	这是项目备注。	true 	true
+20411111	Tom还款	+45.50	3	remark.	true 	true
+20531212	Tom还款	+32.33	3	这是备注；remark.	true 	true
+20400730	Belly还款	+10.203	3	这是项目备注。	true 	true
+20411111	Belly还款	+45.5043	3	remark.	true 	true
+20531212	Belly还款	+32.336799	3	这是备注；remark.	true 	true
+20300730	Belly还款	10	3	这是项目备注。	true 	true
+20411111	get彩票	45	3	remark.	true 	true
+20531212	John还款	32	3	这是备注；remark.	true 	true
+20300730	Bella还款	0.20	3	这是项目备注。	true 	true
+20411111	Tom还款	45.50	3	remark.	true 	true
+20531212	Tom还款	32.33	3	这是备注；remark.	true 	true
+20400730	Belly还款	10.203	3	这是项目备注。	true 	true
+20411111	Belly还款	45.5043	3	remark.	true 	true
+20531212	Belly还款	32.336799	3	这是备注；This is remark.	true 	true
+20400730	吃breakfast	-10	10	这是项目备注。	true 	true
+20411111	去San_Fransisco	-450	6	remark.	true 	true
+20531212	吃dinner	-32	7	这是备注；remark.	true 	true
+20500730	吃breakfast	-0.20	5	这是项目备注。	true 	true
+20411111	吃launch	-45.50	6	remark.	true 	true
+20531212	吃dinner	-32.33	5	这是备注；remark.	true 	true
+20500730	吃breakfast	-10.203	5	这是项目备注。	true 	true
+20411111	吃launch	-45.5043	5	remark.	true 	true
+20531212	吃dinner	-32.336799	5	这是备注；remark.	true 	true
+20550228	早餐	+10.20	1		true	true
+20801224	早餐	+45.50	1.22	这是项目备注。	false	false
+20891006	早餐	+32.33	-1.22	这是项目备注。	false	false
+19800103	早餐	+10.20	10000.3433	这是项目备注。	false	false
+19800107	Null	+45.50	1	这是项目备注。	false	false
+19800100	早餐	+32.33	23	这是项目备注。	false	false
+20111234	早餐	-0.20	4	这是项目备注。	false	false
+20130029	早餐	-45.50	5	这是项目备注。	false	false
+19791424	早餐	-32.33	6	这是项目备注。	false	false
+20130229	早餐	-0.20	7	这是项目备注。	false	false
+21000229	早餐	-45.50	8	这是项目备注。	false	false
