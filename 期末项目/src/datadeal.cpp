@@ -82,7 +82,7 @@ bool Income::setValue(Table & IncomeTable)
 		sql += "\"";
 	}
 	sql += ");";	
-	if (!data.modifyDataBase(sql) || IncomeTable.name == "Null"|| IncomeTable.ID - int(IncomeTable.ID) != 0||!inputValid(IncomeTable.time)) 
+	if (!data.modifyDataBase(sql) || IncomeTable.name == "Null"|| IncomeTable.ID - int(IncomeTable.ID) != 0||!inputValid(IncomeTable.time))
 	{
 		errMsg = data.getErrorMessage();
 		return false;

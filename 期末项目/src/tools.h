@@ -200,7 +200,8 @@ bool judgeTime(int time)
 bool inputIncomeData(Table & data)
 {
 	Income IncomeData;
-	data.ID = NULL;
+	//data.ID = NULL;
+	data.ID = 1;
 	cout<<"输入项目发生时间(格式:YYYYMMDD):";
 	cin>>data.time;
 	if (!judgeTime(data.time))
@@ -259,6 +260,7 @@ bool inputIncomeData(Table & data)
 		typeID = IncomeData.getTypeID(typeName);
 	}
 	data.typeID = typeID;
+	cout  << "really" <<endl;
 	return true;
 }
 
@@ -270,6 +272,7 @@ void addIncome(void)
 	Table IncomeTable;
 	if (!inputIncomeData(IncomeTable))
 	{
+		cout << "wrong" <<endl;
 		return;
 	}
 	Income IncomeData;

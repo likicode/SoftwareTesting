@@ -10,7 +10,7 @@ using namespace std;
 
 Table test_setValue(Income IncomeData, Table mytable,string fname){
 	std::ifstream infile(fname);
-    std::ofstream outfile("/Users/liki/Desktop/Money/testcase/Res_setValue");
+    std::ofstream outfile("/Users/liki/Desktop/Money/UnitTest/Res_setValue");
     string line;
     cout << "work!" <<endl;
     while (std::getline(infile, line)){
@@ -50,7 +50,7 @@ Table test_setValue(Income IncomeData, Table mytable,string fname){
 Table test_removeValue(Income IncomeData, Table mytable, string fname){
 	std::ifstream infile(fname);
     string line;
-    std::ofstream outfile("/Users/liki/Desktop/Money/testcase/Res_removeValue");
+    std::ofstream outfile("/Users/liki/Desktop/Money/UnitTest/Res_removeValue");
     while(std::getline(infile,line)){
     	std::istringstream iss(line);
     	float _ID;
@@ -76,7 +76,7 @@ Table test_removeValue(Income IncomeData, Table mytable, string fname){
 Income test_setType(Income IncomeData, Type IncomeType, string fname){
 	std::ifstream infile(fname);
     string line;
-    std::ofstream outfile("/Users/liki/Desktop/Money/testcase/Res_setType");
+    std::ofstream outfile("/Users/liki/Desktop/Money/UnitTest/Res_setType");
 
     while(std::getline(infile,line)){
     	std::istringstream iss(line);
@@ -124,7 +124,7 @@ Income test_getSum(Income IncomeData, Table mytable, string fname){
     IncomeData.setValue(mytable);    
 
 	std::ifstream infile(fname);
-    std::ofstream outfile("/Users/liki/Desktop/Money/testcase/Res_getSum");
+    std::ofstream outfile("/Users/liki/Desktop/Money/UnitTest/Res_getSum");
     string line;
     while(std::getline(infile,line)){
     	std::istringstream iss(line);
@@ -171,7 +171,7 @@ Income test_getSumExpense(Income IncomeData, Table mytable, string fname){
     IncomeData.setValue(mytable);  
 
 	std::ifstream infile(fname);
-    std::ofstream outfile("/Users/liki/Desktop/Money/testcase/Res_getSumExpense");
+    std::ofstream outfile("/Users/liki/Desktop/Money/UnitTest/Res_getSumExpense");
     string line;
     while(std::getline(infile,line)){
     	std::istringstream iss(line);
@@ -220,7 +220,7 @@ Income test_getSumIncome(Income IncomeData, Table mytable, string fname){
 
 	std::ifstream infile(fname);
     string line;
-    std::ofstream outfile("/Users/liki/Desktop/Money/testcase/Res_getSumIncome");
+    std::ofstream outfile("/Users/liki/Desktop/Money/UnitTest/Res_getSumIncome");
     while(std::getline(infile,line)){
     	std::istringstream iss(line);
     	int _beginTime, _endTime;
@@ -267,7 +267,7 @@ Income test_getSumByType(Income IncomeData,Table mytable,Type IncomeType, string
 
 
 	std::ifstream infile(fname);
-    std::ofstream outfile("/Users/liki/Desktop/Money/testcase/Res_getSumByType");
+    std::ofstream outfile("/Users/liki/Desktop/Money/UnitTest/Res_getSumByType");
     string line;
     while(std::getline(infile,line)){
     	std::istringstream iss(line);
@@ -288,19 +288,19 @@ Income test_getSumByType(Income IncomeData,Table mytable,Type IncomeType, string
 
 int main(){
 	// test case for setValue()
-	string TC_setValue = "/Users/liki/Desktop/Money/testcase/TC_setValue"; 
+	string TC_setValue = "/Users/liki/Desktop/Money/UnitTest/TC_setValue"; 
 	// test case for removeValue() 
-	string TC_removeValue = "/Users/liki/Desktop/Money/testcase/TC_removeValue";
+	string TC_removeValue = "/Users/liki/Desktop/Money/UnitTest/TC_removeValue";
 	//test case for setType()
-	string TC_setType = "/Users/liki/Desktop/Money/testcase/TC_setType";
+	string TC_setType = "/Users/liki/Desktop/Money/UnitTest/TC_setType";
 	//test case for getSum()
-	string TC_getSum = "/Users/liki/Desktop/Money/testcase/TC_getSum";
+	string TC_getSum = "/Users/liki/Desktop/Money/UnitTest/TC_getSum";
 	//test case for getSumIncome()
-	string TC_getSumIncome = "/Users/liki/Desktop/Money/testcase/TC_getSumIncome";
+	string TC_getSumIncome = "/Users/liki/Desktop/Money/UnitTest/TC_getSumIncome";
 	//test case for getSumExpense()
-	string TC_getSumExpense = "/Users/liki/Desktop/Money/testcase/TC_getSumExpense";
+	string TC_getSumExpense = "/Users/liki/Desktop/Money/UnitTest/TC_getSumExpense";
 	//test case for getSumByType()
-	string TC_getSumByType = "/Users/liki/Desktop/Money/testcase/TC_getSumByType";
+	string TC_getSumByType = "/Users/liki/Desktop/Money/UnitTest/TC_getSumByType";
 
 	DataBase database;
 	database.initDataBase();
