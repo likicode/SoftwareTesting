@@ -1,3 +1,0 @@
-Money原项目见https://github.com/zwdnet/Money
-本项目添加了对Money的单元测试、集成测试和系统测试，并且在一些模块进行了改进。
-Integration Test & Unit Test 中是纯测试用例文本(TC_)和用例测试结果(Res_),系统测试是对业务流程的模拟，在这里没有文本格式呈现。
